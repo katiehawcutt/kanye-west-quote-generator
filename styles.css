@@ -1,0 +1,107 @@
+:root {
+  --white: #f6f4f8;
+}
+
+body {
+  margin: 0;
+  background-image: url(./Images/kayne-background.png);
+  background-size: 300px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 25vh;
+}
+
+main {
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section,
+.left-container {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  border: black dashed 2px;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.history-container {
+  height: 380px;
+  width: 380px;
+  background-color: var(--white);
+  overflow-y: scroll;
+}
+
+button {
+  margin: 30px;
+  font-family: "Rubik Mono One";
+  font-size: 30px;
+  height: 100px;
+  width: 350px;
+  border-radius: 10px;
+  border: goldenrod double 10px;
+  text-align: center;
+  background-image: url(./Images/polkadots.png);
+  background-size: 200px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+li {
+  font-family: "Reem Kufi";
+}
+
+p {
+  font-family: "Reem Kufi";
+  margin: 20px;
+  font-size: 20px;
+}
+
+h1 {
+  padding: 20px;
+  border: 5px double black;
+  background-image: url(./Images/polkadots.png);
+  background-size: 200px;
+  background-color: var(--white);
+  border-radius: 10px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0;
+  font-family: "Rubik Mono One";
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Rubik Mono One";
+  font-size: 20px;
+  margin: 20px;
+  text-decoration: u;
+}
