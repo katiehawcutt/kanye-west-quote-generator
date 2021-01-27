@@ -10,7 +10,7 @@ _I did a major refactor of this app which included separating out the functional
 
 _I really enjoyed working on this project and learnt about lot of new concepts including callback functions, asynchronous callback functions, inline functions, promises, .then, JSON, fetch, get requests and API's!_
 
-### Main Learning Points:
+## Main Learning Points:
 
 - JSON (JavaScript Object Notation) is an interchange format. It is a syntax for storing and exchanging data. JSON data is written as name / value pairs and is almost identical to JS objects (keys/values). A JSON value must be one of the following data types: string, number object, array, boolean, null. It cannot be a function, date or undefined.
 - Fetch is a function that can send http requests - in this case a get request. The fetch API provides and interface for fetching resources. The fetch() method takes one mandatory argument - the path to the resource that you want to fetch. It returns a promise that resolves to the the response to that request.
@@ -31,3 +31,29 @@ function runFetch() {
     });
 }
 ```
+
+## Built with:
+
+- HTML
+- CSS
+- JavaScript
+
+## Getting Started:
+
+Clone the repo as instructed below
+
+## Prerequisites:
+
+No prerequisites
+
+## Installation
+
+1.  Clone the repo
+
+`git clone https://github.com/katiehawcutt/kanye-west-quote-generator.git`
+
+2. Run the index.html in a browser
+
+## Usage
+
+Click the button to get a quote!
